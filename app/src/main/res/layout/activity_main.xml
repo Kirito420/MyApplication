@@ -1,0 +1,2050 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayoutChild"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:foregroundGravity="center|center_horizontal"
+        android:padding="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.496">
+
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/horizontalGuideline1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.01" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/horizontalGuideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.15" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/horizontalGuideline3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.29" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/horizontalGuideline4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.43" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/horizontalGuideline5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.57" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/horizontalGuideline6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.71" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/horizontalGuideline7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.85" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/horizontalGuideline8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.99" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/verticalGuideline1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.01" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/verticalGuideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.15" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/verticalGuideline3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.29" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/verticalGuideline4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.43" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/verticalGuideline5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.57" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/verticalGuideline6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.71" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/verticalGuideline7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.85" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/verticalGuideline8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.99" />
+
+
+        <ImageButton
+            android:id="@+id/whiteButton1"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="0"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline2"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline2"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline1"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline1"
+            app:srcCompat="@drawable/white103" />
+
+        <ImageButton
+            android:id="@+id/whiteButton2"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="1"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline2"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline3"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline2"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline1"
+            app:srcCompat="@drawable/white104" />
+
+        <ImageButton
+            android:id="@+id/whiteButton3"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="2"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline2"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline4"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline3"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline1"
+            app:srcCompat="@drawable/white105" />
+
+        <ImageButton
+            android:id="@+id/whiteButton4"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="3"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline2"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline5"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline4"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline1"
+            app:srcCompat="@drawable/white106" />
+
+        <ImageButton
+            android:id="@+id/whiteButton5"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="4"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline2"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline6"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline5"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline1"
+            app:srcCompat="@drawable/white107" />
+
+        <ImageButton
+            android:id="@+id/whiteButton6"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="5"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline2"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline7"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline6"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline1"
+            app:srcCompat="@drawable/white108" />
+
+        <ImageButton
+            android:id="@+id/whiteButton7"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="6"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline2"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline8"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline7"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline1"
+            app:srcCompat="@drawable/white109" />
+
+        <ImageButton
+            android:id="@+id/whiteButton8"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="7"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline3"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline2"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline1"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline2"
+            app:srcCompat="@drawable/white110" />
+
+        <ImageButton
+            android:id="@+id/whiteButton9"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="8"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline3"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline3"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline2"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline2"
+            app:srcCompat="@drawable/white111" />
+
+        <ImageButton
+            android:id="@+id/whiteButton10"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="9"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline3"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline4"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline3"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline2"
+            app:srcCompat="@drawable/white112" />
+
+        <ImageButton
+            android:id="@+id/whiteButton11"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="10"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline3"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline5"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline4"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline2"
+            app:srcCompat="@drawable/white113" />
+
+        <ImageButton
+            android:id="@+id/whiteButton12"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="11"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline3"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline6"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline5"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline2"
+            app:srcCompat="@drawable/white114" />
+
+        <ImageButton
+            android:id="@+id/whiteButton13"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="12"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline3"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline7"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline6"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline2"
+            app:srcCompat="@drawable/white115" />
+
+        <ImageButton
+            android:id="@+id/whiteButton14"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="13"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline3"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline8"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline7"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline2"
+            app:srcCompat="@drawable/white116" />
+
+        <ImageButton
+            android:id="@+id/whiteButton15"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="14"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline4"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline2"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline1"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline3"
+            app:srcCompat="@drawable/white117" />
+
+        <ImageButton
+            android:id="@+id/whiteButton16"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="15"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline4"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline3"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline2"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline3"
+            app:srcCompat="@drawable/white118" />
+
+        <ImageButton
+            android:id="@+id/whiteButton17"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="16"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline4"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline4"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline3"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline3"
+            app:srcCompat="@drawable/white119" />
+
+        <ImageButton
+            android:id="@+id/whiteButton18"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="17"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline4"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline5"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline4"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline3"
+            app:srcCompat="@drawable/white120" />
+
+        <ImageButton
+            android:id="@+id/whiteButton19"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="18"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline4"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline6"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline5"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline3"
+            app:srcCompat="@drawable/white121" />
+
+        <ImageButton
+            android:id="@+id/whiteButton20"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="19"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline4"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline7"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline6"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline3"
+            app:srcCompat="@drawable/white122" />
+
+        <ImageButton
+            android:id="@+id/whiteButton21"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="20"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline4"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline8"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline7"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline3"
+            app:srcCompat="@drawable/white123" />
+
+        <ImageButton
+            android:id="@+id/whiteButton22"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="21"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline5"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline2"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline1"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline4"
+            app:srcCompat="@drawable/white124" />
+
+        <ImageButton
+            android:id="@+id/whiteButton23"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="22"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline5"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline3"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline2"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline4"
+            app:srcCompat="@drawable/white125" />
+
+        <ImageButton
+            android:id="@+id/whiteButton24"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="23"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline5"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline4"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline3"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline4"
+            app:srcCompat="@drawable/white126" />
+
+        <ImageButton
+            android:id="@+id/whiteButton25"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="24"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline5"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline5"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline4"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline4"
+            app:srcCompat="@drawable/white127" />
+
+        <ImageButton
+            android:id="@+id/whiteButton26"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="25"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline5"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline6"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline5"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline4"
+            app:srcCompat="@drawable/white128" />
+
+        <ImageButton
+            android:id="@+id/whiteButton27"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="26"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline5"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline7"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline6"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline4"
+            app:srcCompat="@drawable/white129" />
+
+        <ImageButton
+            android:id="@+id/whiteButton28"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="27"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline5"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline8"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline7"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline4"
+            app:srcCompat="@drawable/white130" />
+
+        <ImageButton
+            android:id="@+id/whiteButton29"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="28"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline6"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline2"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline1"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline5"
+            app:srcCompat="@drawable/white131" />
+
+        <ImageButton
+            android:id="@+id/whiteButton30"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="29"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline6"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline3"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline2"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline5"
+            app:srcCompat="@drawable/white132" />
+
+        <ImageButton
+            android:id="@+id/whiteButton31"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="30"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline6"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline4"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline3"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline5"
+            app:srcCompat="@drawable/white133" />
+
+        <ImageButton
+            android:id="@+id/whiteButton32"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="31"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline6"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline5"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline4"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline5"
+            app:srcCompat="@drawable/white134" />
+
+        <ImageButton
+            android:id="@+id/whiteButton33"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="32"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline6"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline6"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline5"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline5"
+            app:srcCompat="@drawable/white135" />
+
+        <ImageButton
+            android:id="@+id/whiteButton34"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="33"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline6"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline7"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline6"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline5"
+            app:srcCompat="@drawable/white136" />
+
+        <ImageButton
+            android:id="@+id/whiteButton35"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="34"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline6"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline8"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline7"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline5"
+            app:srcCompat="@drawable/white137" />
+
+        <ImageButton
+            android:id="@+id/whiteButton36"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="35"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline7"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline2"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline1"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline6"
+            app:srcCompat="@drawable/white138" />
+
+        <ImageButton
+            android:id="@+id/whiteButton37"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="36"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline7"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline3"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline2"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline6"
+            app:srcCompat="@drawable/white139" />
+
+        <ImageButton
+            android:id="@+id/whiteButton38"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="37"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline7"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline4"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline3"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline6"
+            app:srcCompat="@drawable/white140" />
+
+        <ImageButton
+            android:id="@+id/whiteButton39"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="38"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline7"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline5"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline4"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline6"
+            app:srcCompat="@drawable/white141" />
+
+        <ImageButton
+            android:id="@+id/whiteButton40"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="39"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline7"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline6"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline5"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline6"
+            app:srcCompat="@drawable/white142" />
+
+        <ImageButton
+            android:id="@+id/whiteButton41"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="40"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline7"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline7"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline6"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline6"
+            app:srcCompat="@drawable/white143" />
+
+        <ImageButton
+            android:id="@+id/whiteButton42"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="41"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline7"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline8"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline7"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline6"
+            app:srcCompat="@drawable/white144" />
+
+        <ImageButton
+            android:id="@+id/whiteButton43"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="42"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline8"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline2"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline1"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline7"
+            app:srcCompat="@drawable/white145" />
+
+        <ImageButton
+            android:id="@+id/whiteButton44"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="43"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline8"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline3"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline2"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline7"
+            app:srcCompat="@drawable/white146" />
+
+        <ImageButton
+            android:id="@+id/whiteButton45"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="44"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline8"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline4"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline3"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline7"
+            app:srcCompat="@drawable/white147" />
+
+        <ImageButton
+            android:id="@+id/whiteButton46"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="45"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline8"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline5"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline4"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline7"
+            app:srcCompat="@drawable/white148" />
+
+        <ImageButton
+            android:id="@+id/whiteButton47"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="46"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline8"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline6"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline5"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline7"
+            app:srcCompat="@drawable/white149" />
+
+        <ImageButton
+            android:id="@+id/whiteButton48"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="47"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline8"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline7"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline6"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline7"
+            app:srcCompat="@drawable/white150" />
+
+        <ImageButton
+            android:id="@+id/whiteButton49"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="48"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline8"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline8"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline7"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline7"
+            app:srcCompat="@drawable/white151" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton1"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="0"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline2"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline2"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline1"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline1"
+            app:srcCompat="@drawable/darkblue55" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton2"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="1"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline2"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline3"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline2"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline1"
+            app:srcCompat="@drawable/darkblue56" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton3"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="2"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline2"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline4"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline3"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline1"
+            app:srcCompat="@drawable/darkblue57" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton4"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="3"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline2"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline5"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline4"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline1"
+            app:srcCompat="@drawable/darkblue58" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton5"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="4"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline2"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline6"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline5"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline1"
+            app:srcCompat="@drawable/darkblue59" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton6"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="5"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline2"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline7"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline6"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline1"
+            app:srcCompat="@drawable/darkblue60" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton7"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="6"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline2"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline8"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline7"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline1"
+            app:srcCompat="@drawable/darkblue61" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton8"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="7"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline3"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline2"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline1"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline2"
+            app:srcCompat="@drawable/darkblue62" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton9"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="8"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline3"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline3"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline2"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline2"
+            app:srcCompat="@drawable/darkblue63" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton10"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="9"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline3"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline4"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline3"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline2"
+            app:srcCompat="@drawable/darkblue64" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton11"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="10"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline3"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline5"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline4"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline2"
+            app:srcCompat="@drawable/darkblue65" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton12"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="11"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline3"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline6"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline5"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline2"
+            app:srcCompat="@drawable/darkblue66" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton13"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="12"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline3"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline7"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline6"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline2"
+            app:srcCompat="@drawable/darkblue67" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton14"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="13"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline3"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline8"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline7"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline2"
+            app:srcCompat="@drawable/darkblue68" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton15"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="14"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline4"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline2"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline1"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline3"
+            app:srcCompat="@drawable/darkblue69" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton16"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="15"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline4"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline3"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline2"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline3"
+            app:srcCompat="@drawable/darkblue70" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton17"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="16"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline4"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline4"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline3"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline3"
+            app:srcCompat="@drawable/darkblue71" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton18"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="17"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline4"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline5"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline4"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline3"
+            app:srcCompat="@drawable/darkblue72" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton19"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="18"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline4"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline6"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline5"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline3"
+            app:srcCompat="@drawable/darkblue73" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton20"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="19"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline4"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline7"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline6"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline3"
+            app:srcCompat="@drawable/darkblue74" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton21"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="20"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline4"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline8"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline7"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline3"
+            app:srcCompat="@drawable/darkblue75" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton22"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="21"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline5"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline2"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline1"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline4"
+            app:srcCompat="@drawable/darkblue76" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton23"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="22"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline5"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline3"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline2"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline4"
+            app:srcCompat="@drawable/darkblue77" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton24"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="23"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline5"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline4"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline3"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline4"
+            app:srcCompat="@drawable/darkblue78" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton25"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="24"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline5"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline5"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline4"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline4"
+            app:srcCompat="@drawable/darkblue79" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton26"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="25"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline5"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline6"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline5"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline4"
+            app:srcCompat="@drawable/darkblue80" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton27"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="26"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline5"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline7"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline6"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline4"
+            app:srcCompat="@drawable/darkblue81" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton28"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="27"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline5"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline8"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline7"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline4"
+            app:srcCompat="@drawable/darkblue82" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton29"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="28"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline6"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline2"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline1"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline5"
+            app:srcCompat="@drawable/darkblue83" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton30"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="29"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline6"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline3"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline2"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline5"
+            app:srcCompat="@drawable/darkblue84" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton31"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="30"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline6"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline4"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline3"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline5"
+            app:srcCompat="@drawable/darkblue85" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton32"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="31"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline6"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline5"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline4"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline5"
+            app:srcCompat="@drawable/darkblue86" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton33"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="32"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline6"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline6"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline5"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline5"
+            app:srcCompat="@drawable/darkblue87" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton34"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="33"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline6"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline7"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline6"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline5"
+            app:srcCompat="@drawable/darkblue88" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton35"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="34"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline6"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline8"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline7"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline5"
+            app:srcCompat="@drawable/darkblue89" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton36"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="35"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline7"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline2"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline1"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline6"
+            app:srcCompat="@drawable/darkblue96" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton37"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="36"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline7"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline3"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline2"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline6"
+            app:srcCompat="@drawable/darkblue95" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton38"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="37"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline7"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline4"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline3"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline6"
+            app:srcCompat="@drawable/darkblue94" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton39"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="38"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline7"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline5"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline4"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline6"
+            app:srcCompat="@drawable/darkblue93" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton40"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="39"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline7"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline6"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline5"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline6"
+            app:srcCompat="@drawable/darkblue92" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton41"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="40"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline7"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline7"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline6"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline6"
+            app:srcCompat="@drawable/darkblue91" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton42"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="41"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline7"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline8"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline7"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline6"
+            app:srcCompat="@drawable/darkblue90" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton43"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="42"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline8"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline2"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline1"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline7"
+            app:srcCompat="@drawable/darkblue97" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton44"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="43"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline8"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline3"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline2"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline7"
+            app:srcCompat="@drawable/darkblue98" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton45"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="44"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline8"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline4"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline3"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline7"
+            app:srcCompat="@drawable/darkblue99" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton46"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="45"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline8"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline5"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline4"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline7"
+            app:srcCompat="@drawable/darkblue100" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton47"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="46"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline8"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline6"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline5"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline7"
+            app:srcCompat="@drawable/darkblue101" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton48"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="47"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline8"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline7"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline6"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline7"
+            app:srcCompat="@drawable/darkblue102" />
+
+        <ImageButton
+            android:id="@+id/darkblueButton49"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="48"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline8"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline8"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline7"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline7"
+            app:srcCompat="@drawable/darkblue103" />
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="0"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline2"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline2"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline1"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline1"
+            app:srcCompat="@drawable/group1" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="1"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline2"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline3"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline2"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline1"
+            app:srcCompat="@drawable/group2" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="2"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline2"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline4"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline3"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline1"
+            app:srcCompat="@drawable/group3" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="3"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline2"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline5"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline4"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline1"
+            app:srcCompat="@drawable/group4" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="4"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline2"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline6"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline5"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline1"
+            app:srcCompat="@drawable/group5" />
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="5"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline2"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline7"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline6"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline1"
+            app:srcCompat="@drawable/group6" />
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="6"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline2"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline8"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline7"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline1"
+            app:srcCompat="@drawable/group7" />
+
+        <ImageButton
+            android:id="@+id/imageButton8"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="7"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline3"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline2"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline1"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline2"
+            app:srcCompat="@drawable/group8" />
+
+        <ImageButton
+            android:id="@+id/imageButton9"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="8"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline3"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline3"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline2"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline2"
+            app:srcCompat="@drawable/group9" />
+
+        <ImageButton
+            android:id="@+id/imageButton10"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="9"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline3"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline4"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline3"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline2"
+            app:srcCompat="@drawable/group10" />
+
+        <ImageButton
+            android:id="@+id/imageButton11"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="10"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline3"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline5"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline4"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline2"
+            app:srcCompat="@drawable/group11" />
+
+        <ImageButton
+            android:id="@+id/imageButton12"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="11"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline3"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline6"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline5"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline2"
+            app:srcCompat="@drawable/group12" />
+
+        <ImageButton
+            android:id="@+id/imageButton13"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="12"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline3"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline7"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline6"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline2"
+            app:srcCompat="@drawable/group13" />
+
+        <ImageButton
+            android:id="@+id/imageButton14"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="13"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline3"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline8"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline7"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline2"
+            app:srcCompat="@drawable/group14" />
+
+        <ImageButton
+            android:id="@+id/imageButton15"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="14"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline4"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline2"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline1"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline3"
+            app:srcCompat="@drawable/group15" />
+
+        <ImageButton
+            android:id="@+id/imageButton16"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="15"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline4"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline3"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline2"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline3"
+            app:srcCompat="@drawable/group16" />
+
+        <ImageButton
+            android:id="@+id/imageButton17"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="16"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline4"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline4"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline3"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline3"
+            app:srcCompat="@drawable/group17" />
+
+        <ImageButton
+            android:id="@+id/imageButton18"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="17"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline4"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline5"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline4"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline3"
+            app:srcCompat="@drawable/group18" />
+
+        <ImageButton
+            android:id="@+id/imageButton19"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="18"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline4"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline6"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline5"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline3"
+            app:srcCompat="@drawable/group19" />
+
+        <ImageButton
+            android:id="@+id/imageButton20"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="19"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline4"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline7"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline6"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline3"
+            app:srcCompat="@drawable/group20" />
+
+        <ImageButton
+            android:id="@+id/imageButton21"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="20"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline4"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline8"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline7"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline3"
+            app:srcCompat="@drawable/group21" />
+
+        <ImageButton
+            android:id="@+id/imageButton22"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="21"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline5"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline2"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline1"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline4"
+            app:srcCompat="@drawable/group22" />
+
+        <ImageButton
+            android:id="@+id/imageButton23"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="22"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline5"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline3"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline2"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline4"
+            app:srcCompat="@drawable/group23" />
+
+        <ImageButton
+            android:id="@+id/imageButton24"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="23"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline5"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline4"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline3"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline4"
+            app:srcCompat="@drawable/group24" />
+
+        <ImageButton
+            android:id="@+id/imageButton25"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="24"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline5"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline5"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline4"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline4"
+            app:srcCompat="@drawable/group25" />
+
+        <ImageButton
+            android:id="@+id/imageButton26"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="25"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline5"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline6"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline5"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline4"
+            app:srcCompat="@drawable/group26" />
+
+        <ImageButton
+            android:id="@+id/imageButton27"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="26"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline5"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline7"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline6"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline4"
+            app:srcCompat="@drawable/group27" />
+
+        <ImageButton
+            android:id="@+id/imageButton28"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="27"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline5"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline8"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline7"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline4"
+            app:srcCompat="@drawable/group28" />
+
+        <ImageButton
+            android:id="@+id/imageButton29"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="28"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline6"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline2"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline1"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline5"
+            app:srcCompat="@drawable/group35" />
+
+        <ImageButton
+            android:id="@+id/imageButton30"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="29"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline6"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline3"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline2"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline5"
+            app:srcCompat="@drawable/group34" />
+
+        <ImageButton
+            android:id="@+id/imageButton31"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="30"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline6"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline4"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline3"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline5"
+            app:srcCompat="@drawable/group33" />
+
+        <ImageButton
+            android:id="@+id/imageButton32"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="31"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline6"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline5"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline4"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline5"
+            app:srcCompat="@drawable/group32" />
+
+        <ImageButton
+            android:id="@+id/imageButton33"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="32"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline6"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline6"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline5"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline5"
+            app:srcCompat="@drawable/group31" />
+
+        <ImageButton
+            android:id="@+id/imageButton34"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="33"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline6"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline7"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline6"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline5"
+            app:srcCompat="@drawable/group30" />
+
+        <ImageButton
+            android:id="@+id/imageButton35"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="34"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline6"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline8"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline7"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline5"
+            app:srcCompat="@drawable/group29" />
+
+        <ImageButton
+            android:id="@+id/imageButton36"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="35"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline7"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline2"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline1"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline6"
+            app:srcCompat="@drawable/group36" />
+
+        <ImageButton
+            android:id="@+id/imageButton37"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="36"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline7"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline3"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline2"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline6"
+            app:srcCompat="@drawable/group37" />
+
+        <ImageButton
+            android:id="@+id/imageButton38"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="37"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline7"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline4"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline3"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline6"
+            app:srcCompat="@drawable/group38" />
+
+        <ImageButton
+            android:id="@+id/imageButton39"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="38"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline7"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline5"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline4"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline6"
+            app:srcCompat="@drawable/group39" />
+
+        <ImageButton
+            android:id="@+id/imageButton40"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="39"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline7"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline6"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline5"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline6"
+            app:srcCompat="@drawable/group40" />
+
+        <ImageButton
+            android:id="@+id/imageButton41"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="40"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline7"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline7"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline6"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline6"
+            app:srcCompat="@drawable/group41" />
+
+        <ImageButton
+            android:id="@+id/imageButton42"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="41"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline7"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline8"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline7"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline6"
+            app:srcCompat="@drawable/group42" />
+
+        <ImageButton
+            android:id="@+id/imageButton43"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="42"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline8"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline2"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline1"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline7"
+            app:srcCompat="@drawable/group49" />
+
+        <ImageButton
+            android:id="@+id/imageButton44"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="43"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline8"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline3"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline2"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline7"
+            app:srcCompat="@drawable/group48" />
+
+        <ImageButton
+            android:id="@+id/imageButton45"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="44"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline8"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline4"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline3"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline7"
+            app:srcCompat="@drawable/group47" />
+
+        <ImageButton
+            android:id="@+id/imageButton46"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="45"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline8"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline5"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline4"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline7"
+            app:srcCompat="@drawable/group46" />
+
+        <ImageButton
+            android:id="@+id/imageButton47"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="46"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline8"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline6"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline5"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline7"
+            app:srcCompat="@drawable/group45" />
+
+        <ImageButton
+            android:id="@+id/imageButton48"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="47"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline8"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline7"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline6"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline7"
+            app:srcCompat="@drawable/group44" />
+
+        <ImageButton
+            android:id="@+id/imageButton49"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00FFFFFF"
+            android:onClick="choose"
+            android:tag="48"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline8"
+            app:layout_constraintEnd_toStartOf="@+id/verticalGuideline8"
+            app:layout_constraintStart_toStartOf="@+id/verticalGuideline7"
+            app:layout_constraintTop_toTopOf="@+id/horizontalGuideline7"
+            app:srcCompat="@drawable/group43" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.niknovak.sevenweekmurphworkoutchallenge">
+
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="com.niknovak.sevenweekmurphworkoutchallenge.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3137351105878660~5901616023" />
+        <activity
+            android:name="com.niknovak.sevenweekmurphworkoutchallenge.RestTimer3Activity" />
+        <activity
+            android:name="com.niknovak.sevenweekmurphworkoutchallenge.RestTimer2Activity" />
+        <activity
+            android:name="com.niknovak.sevenweekmurphworkoutchallenge.RestTimerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.niknovak.sevenweekmurphworkoutchallenge.TextInstructionsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.niknovak.sevenweekmurphworkoutchallenge.PhotoInstructionsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.niknovak.sevenweekmurphworkoutchallenge.GifInstructionsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.niknovak.sevenweekmurphworkoutchallenge.SetReminderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.niknovak.sevenweekmurphworkoutchallenge.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.niknovak.sevenweekmurphworkoutchallenge.FourthSetActivity"
+            android:label="Fourth Set"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.niknovak.sevenweekmurphworkoutchallenge.ThirdSetActivity"
+            android:label="Third Set"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.niknovak.sevenweekmurphworkoutchallenge.SecondSetActivity"
+            android:label="Second Set"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.niknovak.sevenweekmurphworkoutchallenge.StretchActivity"
+            android:label="@string/stretch"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.niknovak.sevenweekmurphworkoutchallenge.WarmupActivity"
+            android:label="@string/warmup"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.niknovak.sevenweekmurphworkoutchallenge.WorkoutActivity"
+            android:label="First Set"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.niknovak.sevenweekmurphworkoutchallenge.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.niknovak.sevenweekmurphworkoutchallenge.Repeating_activity" />
+
+        <receiver android:name="com.niknovak.sevenweekmurphworkoutchallenge.Notification_reciever" />
+    </application>
+
+</manifest>
