@@ -56,13 +56,15 @@ public class StretchActivity extends AppCompatActivity {
         if (MainActivity.onDay == 49){
             try{
                 alarmManager.cancel(pendingIntent);
+                Intent intent = new Intent(getApplicationContext(), RateAppActivity.class);
+                startActivity(intent);
             }catch(Exception e){}
         }
 
         Intent intent = new Intent(getApplicationContext(), MainActivity.class);
         Intent intent2 = new Intent(getApplicationContext(), SetReminderActivity.class);
 
-        if (MainActivity.onDay == 1 && Build.VERSION.SDK_INT < 28) {
+        if (MainActivity.onDay == 1 && Build.VERSION.SDK_INT < 99) { //28
             if (tappedCircle + 1 == MainActivity.onDay)
                 MainActivity.onDay++;
             startActivity(intent2);
@@ -92,14 +94,18 @@ public class StretchActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_stretch);
 
+        //Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713
+        //Real AdMob App ID: ca-app-pub-3137351105878660~5901616023
+
         AdView adView;
-        MobileAds.initialize(this, "ca-app-pub-3137351105878660~5901616023"); //replace with real appID, spremen bannerID(iz admob ad unit) v xmlu, in v manifestu
+        MobileAds.initialize(this, "ca-app-pub-3940256099942544~3347511713"); //replace with real appID, spremen bannerID(iz admob ad unit) v xmlu, in v manifestu
         adView = (AdView)findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         adView.loadAd(adRequest);
 
         Intent intetnt = getIntent();
         tappedCircle = intetnt.getIntExtra("tappedCircle", 0);
+
 
         int tc = tappedCircle + 1;
         setTitle("Stretch! (day " + tc + ")");

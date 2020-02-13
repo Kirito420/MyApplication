@@ -108,8 +108,11 @@ public class WorkoutActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.workout);
 
+        //Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713
+        //Real AdMob App ID: ca-app-pub-3137351105878660~5901616023
+
         AdView adView;
-        MobileAds.initialize(this, "ca-app-pub-3137351105878660~5901616023"); //replace with real appID, spremen bannerID(iz admob ad unit) v xmlu, in v manifestu
+        MobileAds.initialize(this, "ca-app-pub-3940256099942544~3347511713"); //replace with real appID, spremen bannerID(iz admob ad unit) v xmlu, in v manifestu
         adView = (AdView)findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         adView.loadAd(adRequest);

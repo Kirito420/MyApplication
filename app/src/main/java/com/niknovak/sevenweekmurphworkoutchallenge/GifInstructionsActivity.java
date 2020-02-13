@@ -68,9 +68,9 @@ public class GifInstructionsActivity extends AppCompatActivity {
                     webView.loadUrl(file); //ne dela na api 18
                     textView = findViewById(R.id.instructionsTextView);
                     if(Build.VERSION.SDK_INT > 20)
-                        text = "▸ hands shoulder width apart\n▸ squeeze your butt and abs\n▸ chin above bar\n▸ exhale on the way up\n▸ go to the next exercise only \n  when you complete all the \n  repetitions of this one";
+                        text = "▸ hands shoulder width apart\n▸ squeeze your butt and abs\n▸ chin above bar\n▸ exhale on the way up\n▸ go to the next exercise only when you complete all the repetitions of this one";
                     else
-                        text = "- hands shoulder width apart\n- squeeze your butt and abs\n- chin above bar\n- exhale on the way up\n- go to the next exercise only \n  when you complete all the \n  repetitions of this one";
+                        text = "- hands shoulder width apart\n- squeeze your butt and abs\n- chin above bar\n- exhale on the way up\n- go to the next exercise only when you complete all the repetitions of this one";
                     textView.setText(text);
                     break;
                 case ("pushup"):
@@ -78,9 +78,9 @@ public class GifInstructionsActivity extends AppCompatActivity {
                     webView.loadUrl(file2);
                     textView = findViewById(R.id.instructionsTextView);
                     if(Build.VERSION.SDK_INT > 20)
-                        text2 = "▸ fully extend your elbows\n▸ hands below shoulders\n▸ squeeze your butt and abs\n▸ exhale on the way up\n▸ go to the next exercise only \n  when you complete all the \n  repetitions of this one";
+                        text2 = "▸ fully extend your elbows\n▸ hands below shoulders\n▸ squeeze your butt and abs\n▸ exhale on the way up\n▸ go to the next exercise only when you complete all the repetitions of this one";
                     else
-                        text2 = "- fully extend your elbows\n- hands below shoulders\n- squeeze your butt and abs\n- exhale on the way up\n- go to the next exercise only \n  when you complete all the \n  repetitions of this one";
+                        text2 = "- fully extend your elbows\n- hands below shoulders\n- squeeze your butt and abs\n- exhale on the way up\n- go to the next exercise only when you complete all the repetitions of this one";
                     textView.setText(text2);
                     break;
                 case ("squat"):
@@ -88,9 +88,9 @@ public class GifInstructionsActivity extends AppCompatActivity {
                     webView.loadUrl(file3);
                     textView = findViewById(R.id.instructionsTextView);
                     if(Build.VERSION.SDK_INT > 20)
-                        text3 = "▸ keep your back straight\n▸ don't let your knees past\n  your toes\n▸ squeeze your butt when you\n  come up\n▸ exhale on the way up\n▸ go to the next exercise only \n  when you complete all the \n  repetitions of this one";
+                        text3 = "▸ keep your back straight\n▸ don't let your knees pastyour toes\n▸ squeeze your butt when youcome up\n▸ exhale on the way up\n▸ go to the next exercise only when you complete all the repetitions of this one";
                     else
-                        text3 = "- keep your back straight\n- don't let your knees past\n  your toes\n- squeeze your butt when you\n  come up\n- exhale on the way up\n- go to the next exercise only \n  when you complete all the \n  repetitions of this one";
+                        text3 = "- keep your back straight\n- don't let your knees pastyour toes\n- squeeze your butt when youcome up\n- exhale on the way up\n- go to the next exercise only when you complete all the repetitions of this one";
                     textView.setText(text3);
                     break;
                 case ("jj"):
